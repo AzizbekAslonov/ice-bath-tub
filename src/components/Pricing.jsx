@@ -1,14 +1,13 @@
-import { MouseParallax } from "react-just-parallax";
-import { smallSphere, stars } from "../assets";
-import Button from "./Button";
+import {MouseParallax} from "react-just-parallax";
+import {smallSphere, stars} from "../assets";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 import Section from "./Section";
-import { LeftLine, RightLine } from "./design/Pricing";
+import {LeftLine, RightLine} from "./design/Pricing";
 
 const Pricing = () => {
   return (
-    <Section id="pricing" className="overflow-hidden">
+    <Section id="pricing" className="overflow-hidden" crosses>
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
@@ -31,8 +30,8 @@ const Pricing = () => {
           </div>
         </div>
         <Heading
-          title="Pay once, use forever"
-          tag="Get started with Brain"
+          title="Bir marta to'lang, umrbod foydalaning"
+          // tag="Get started with Brain"
           tagAccent="master"
         />
         <div className="relative">
@@ -40,14 +39,14 @@ const Pricing = () => {
           <LeftLine />
           <RightLine />
         </div>
-        <div className="flex justify-center mt-10">
-          <Button
-            className="text-xs font-code font-bold tracking-wider uppercase"
-            href="#pricing"
-          >
-            See the full details
-          </Button>
-        </div>
+        {/*<div className="flex justify-center mt-10">*/}
+        {/*  <Button*/}
+        {/*    className="text-xs font-code font-bold tracking-wider uppercase"*/}
+        {/*    href="#pricing"*/}
+        {/*  >*/}
+        {/*    See the full details*/}
+        {/*  </Button>*/}
+        {/*</div>*/}
       </div>
     </Section>
   );

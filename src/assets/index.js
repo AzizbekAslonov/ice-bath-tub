@@ -35,6 +35,7 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import ice from "./collaboration/ice.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -49,7 +50,7 @@ import hero from "./roadmap/hero.png";
 import roadmap1 from "./roadmap/image-1.png";
 import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
+import roadmap4 from "./roadmap/image-4.svg";
 import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
@@ -88,7 +89,15 @@ import companyLogo5 from "./companylogos/yourlogo-5.png";
 import companyLogo6 from "./companylogos/yourlogo-6.png";
 import companyLogo7 from "./companylogos/yourlogo-7.png";
 
+import slide1 from "./hero/product-image-1.jpg";
+import slide2 from "./hero/product-image-2.jpg";
+import slide3 from "./hero/product-image-3.jpg";
+
 export {
+  ice,
+  slide1,
+  slide2,
+  slide3,
   brainmaster,
   check,
   check2,
