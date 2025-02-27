@@ -35,7 +35,7 @@ const Hero = () => {
                         Ice Bath Tub – bu sportchilar va jismoniy faollik bilan shug‘ullanuvchilar
                         uchun maxsus ishlab chiqilgan sovuq vannalar idishi.
                     </p>
-                    <Button href="/pricing" white>
+                    <Button href="#pricing" white>
                         Tezda buyurtma berish
                     </Button>
                 </div>
